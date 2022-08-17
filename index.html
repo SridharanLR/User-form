@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <h1>User Form</h1>
+      <div class="name-age">
+        <div class="name">
+          <label for="name">Name</label>
+          <input
+            id="name"
+            type="text"
+            placeholder="Enter your name"
+            value="Sridharan"
+          />
+        </div>
+        <div class="age">
+          <label for="Age">Age</label>
+          <input
+            id="age"
+            type="number"
+            placeholder="Enter your age"
+            value="23"
+          />
+        </div>
+      </div>
+
+      <div class="from-to">
+        <div class="from">
+          <label for="from">From</label>
+          <input
+            id="from"
+            type="text"
+            placeholder="Enter your starting point"
+            value="Tirunelveli"
+          />
+        </div>
+        <div class="to">
+          <label for="to">To</label>
+          <input
+            id="to"
+            type="text"
+            placeholder="Enter your ending point"
+            value="Chennai"
+          />
+        </div>
+      </div>
+      <button onclick="submit()">Submit</button>
+      <div id="total" class="total"></div>
+
+      <div class="result" id="result">
+        <div class="parent">
+          <div id="lft" class="lft"></div>
+          <div id="rit" class="rit"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
